@@ -8,10 +8,12 @@ if (value > 0) {
 	console.log('wynik dodatni');
 } else if (value < 0) {
 	console.log('wynik ujemny');
-} if (value == 0) {
+} else {
 	alert('wynik równy ZERO');
 	console.log('wynik równy zero');
 }
-// odnośnie else if = czyli rozumiem, ze jesli wynik jest oczywisty uzywam tylko if. if cos to cos?
+/* doczytałam o tym jeszcze raz w info z modułu, już rozumiem, na końcu jest 
+samo else i wtedy już nie trzeba podawać w nawiasach warunku, bo jest to oczywiste */
+
 
 
